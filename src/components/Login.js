@@ -74,7 +74,7 @@ export default class Login extends React.Component{
                         alt="profile-img"
                         className="profile-img-card"
                      />
-                     <Form onSubmit={this.handleLogin} ref={c=>{this.form.c}}>
+                     <Form onSubmit={this.handleLogin} ref={c=>{this.form=c}}>
                          <div className="form-group">
                              <label htmlFor="username">Username</label>
                              <Input

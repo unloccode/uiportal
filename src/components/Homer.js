@@ -6,7 +6,7 @@ export default class Homer extends React.Component{
     constructor(props){
         super(props);
         this.state = {
-            content = ""
+            content: ""
         };
     }
     componentDidMount(){

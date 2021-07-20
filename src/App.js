@@ -1,5 +1,5 @@
 import React from 'react';
-import {BroserRouter as Switch, Route, Link} from 'react-router-dom';
+import {BrowserRouter as Switch, Route, Link} from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
 
